@@ -1,2 +1,0 @@
-export const PLAN_LIMITS={free:{monthlyBuilds:5,maxArtifactMb:100},pro:{monthlyBuilds:100,maxArtifactMb:500},team:{monthlyBuilds:500,maxArtifactMb:1000}} as const;
-export function allowedPlan(plan:string){return plan==="pro"||plan==="team"?plan:"free";}
